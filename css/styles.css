@@ -1,0 +1,104 @@
+.museum_logo{
+  height: 91px;
+  width: auto;
+}
+nav, #menu-checkbox{
+  display: none;
+}
+nav{
+  position: absolute;
+  background: green;
+  top: 0px;
+  left: 100px;
+
+}
+nav a{
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+header{
+  position: relative;
+  top: 0;
+}
+#menu-checkbox:checked ~ nav{
+  
+  display: block;
+
+}
+.footer-logo{
+  height: 70px;
+  width: auto;
+}
+/*Index*/
+.background-index{
+  background-color: rgba(204, 255, 214, 1);
+}
+/*Specials*/
+.background-specials{
+  background-color: rgba(85, 81, 219, 1);
+}
+/*Exhibitions*/
+.background-exhibitions{
+  background-color: rgba(125, 196, 168, 1);
+}
+.ex-heading-cosmology{
+  background-image: url(../assets/images_and_icons/images/cosmos-5809271_1280-min.png)
+}
+.ex-heading-evolution{
+  background-image: url(../assets/images_and_icons/images/mammoth-1257288_1920-min.jpg);
+}
+.ex-heading-BioAndMed{
+  background-image: url(../assets/images_and_icons/images/heart-2607178_1920-min.jpg);
+}
+.ex-heading-RobAndAI{
+  background-image: url(../assets/images_and_icons/images/william-bout-264826-min.jpg);
+}
+.ex-heading-ecology{
+  background-image: url(../assets/images_and_icons/images/ecology.jpeg);
+}
+/*Explore*/
+.background-explore{
+  background-color: rgba(196, 125, 125, 1);
+}
+.explore-heading-kids{
+  background-image: url(../assets/images_and_icons/images/reading-2762010_1280-min.jpg);
+  
+}
+.newton-image{
+  width: 390px;
+  height: auto;
+}
+/*Involved*/
+.background-involved{
+  background-color: rgba(125, 132, 196, 1);
+}
+/*Visit*/
+.background-visit{
+  background-color: rgba(125, 185, 196, 1);
+}
+.visit-h1{
+  background-image: url(../assets/images_and_icons/images/luke-ellis-craven-400722-min.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 876px;
+}
+.visit-map-image{
+  width: 340px;
+  height: auto;
+}
+/*Contact*/
+
+@media (min-width:600px){
+  nav{
+  display: block;
+  position: static;
+}
+  .hamburger-icon{
+  display: none;
+}
+nav a{
+  display: inline-block;
+}
+}

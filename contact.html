@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community Science Museum</title>
+    <title>Contact us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,27 +45,35 @@
         <a href="involved.html">Get involved</a>
       </nav>
     </header>
-    <section class="background-index">
-      <h1 class="index-specials">
-        <a href="specials.html">Special Events and Exhibitions</a>
-      </h1>
-      <h2 class="index-exhibitions">
-        <a href="exhibitions.html">Exhibitions</a>
+    <section class="background-visit">
+      <h1>Contact</h1>
+      <h2 class="phone-icon-contact">
+        <i class="fa-solid fa-phone"></i>+505 123 124 421
       </h2>
-      <h2 class="index-explore">
-        <a href="explore.html">Explore</a>
+      <h2 class="location-icon-contact">
+        <i class="fa-solid fa-location-dot"></i>Science Quarter rd. 505, Nodnol,
+        UK
       </h2>
-      <h3>Planning a visit?</h3>
-      <p>You can find us at</p>
-      <p>Science Quarter rd. 505, Nodnol, UK</p>
-      <h3>Opening hours:</h3>
-      <p>Monday: Closed</p>
-      <p>Tuesday: 10:00 &#45; 16:00</p>
-      <p>Wednesday: 10:00 &#45; 16:00p</p>
-      <p>Thursday: 10:00 &#45; 16:00</p>
-      <p>Friday: 10:00 &#45; 19:00</p>
-      <p>Saturday: 9:00 &#45; 16:00</p>
-      <p>Sunday: 9:00 &#45; 13:00</p>
+      <form method="get" class="form-contact">
+        <label for="name">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="themes">Choose a suitable theme:</label>
+        <select name="themes" id="themes" required>
+          <option value="other">Other</option>
+          <option value="youngstarsclub">Young Stars Club</option>
+          <option value="teacherbooking">Teacher bookings</option>
+          <option value="volunteer">Volunteer</option>
+          <option value="internship">Internships</option>
+        </select>
+        <textarea
+          name="usermessage"
+          id="usermessage"
+          rows="5"
+          cols="20"
+          required
+        ></textarea>
+        <button>Submit</button>
+      </form>
     </section>
     <footer>
       <a href="contact.html">Contact</a>
