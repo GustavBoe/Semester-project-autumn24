@@ -1,4 +1,4 @@
-body{
+body, .specials-button{
   font-family: jockey one;
   margin: 0;
 }
@@ -80,7 +80,7 @@ footer p{
   margin: 0%;
   padding: 0%;
 }
-footer a{
+footer a, footer p{
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -91,8 +91,19 @@ h1{
 h2{
   font-size: 40px;
 }
-p{
+p, .specials-button{
   font-size: 24px;
+}
+h1, h2, h3, p{
+  color: white;
+}
+h1, h2{
+  text-align: center;
+}
+h1 a, h2 a{
+  text-decoration: none;
+  width: 65%;
+  color: white;
 }
 /*Index*/
 .background-index{
@@ -100,11 +111,6 @@ p{
 }
 .index-hamburger{
   color: green;
-}
-h1 a, h2 a{
-  text-decoration: none;
-  width: 65%;
-  color: white;
 }
 .index-specials-background, .index-exhibitions-background, .index-explore-background{
   background-position: 30% 50%;
@@ -133,18 +139,62 @@ h1 a, h2 a{
   left: 50%;
   transform: translate(-50%, -50%);  
 }
-.index-text-wrapper{
+.index-text-wrapper, .article-text{
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: rgba(0, 78, 115, 1);
 }
 .index-text-wrapper p{
   font-size: 20px;
 }
+.index-text-wrapper p, .index-visit-text, .index-text-wrapper h3, .specials-button a{
+  color:rgba(0, 78, 115, 1) ;
+}
 /*Specials*/
 .background-specials{
   background-color: rgba(85, 81, 219, 1);
+}
+.specials-hamburger{
+  color: rgba(85, 81, 219, 1);
+}
+.specials-heading{
+  width: 65%;
+  align-self: center;
+  margin-bottom: 40%;
+}
+.article-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-text p{
+  font-family: alef;
+  width: 85%;
+  text-align: left;
+}
+.specials-moon-image, .specials-astronaut-image, .specials-scientist-image{
+  width: 290px;
+  height: auto;
+}
+.specials-date{
+ margin-top: 50%;
+ margin-bottom: 0%;
+
+}
+.specials-button{
+  margin-top: 50%;
+  margin-bottom: 50%;
+  height: 100px;
+  width: 80%;
+  border-radius:50%;
+  border-style: none;
+}
+.specials-button a{
+  text-decoration: none;
+  text-align: left;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 /*Exhibitions*/
 .background-exhibitions{
