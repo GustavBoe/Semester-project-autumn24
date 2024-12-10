@@ -179,7 +179,6 @@ h1 a, h2 a{
 .specials-date{
  margin-top: 50%;
  margin-bottom: 0%;
-
 }
 .specials-button{
   margin-top: 50%;
@@ -197,34 +196,50 @@ h1 a, h2 a{
   padding-left: 10%;
 }
 /*Exhibitions*/
+.exhibitions-hamburger{
+  color: rgba(0, 115, 89, 1);
+}
 .background-exhibitions{
   background-color: rgba(125, 196, 168, 1);
 }
-.ex-heading-cosmology{
-  background-image: url(../assets/images_and_icons/images/cosmos-5809271_1280-min.png)
+.exhibitions-h1{
+  margin-top: 40%;
+  margin-bottom: 50%;
+  background-image: url(../assets/images_and_icons/images/ExhibitionsIcons.svg);
+  background-size:contain ;
 }
-.ex-heading-evolution{
-  background-image: url(../assets/images_and_icons/images/mammoth-1257288_1920-min.jpg);
+.exhibitions-heading-background{
+  width: 100%;
+  display: flex;
+  height:auto;
+  position: relative;
 }
-.ex-heading-BioAndMed{
-  background-image: url(../assets/images_and_icons/images/heart-2607178_1920-min.jpg);
+.exhibitions-heading-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+	object-position: center;
+  margin-bottom: 30%;
+  margin-top: 50%;
 }
-.ex-heading-RobAndAI{
-  background-image: url(../assets/images_and_icons/images/william-bout-264826-min.jpg);
+.exhibitions-heading-text{
+  position:absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.ex-heading-ecology{
-  background-image: url(../assets/images_and_icons/images/ecology.jpeg);
+.exhibitions-article, .exhibitions-heading-image{
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 /*Explore*/
 .background-explore{
   background-color: rgba(196, 125, 125, 1);
 }
-.explore-heading-kids{
-  background-image: url(../assets/images_and_icons/images/reading-2762010_1280-min.jpg);
-  
-}
 .newton-image{
-  width: 390px;
+  width: 80%;
   height: auto;
 }
 /*Involved*/
