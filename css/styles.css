@@ -125,7 +125,6 @@ footer a, footer p{
   color: black;
   font-size: 24px;
 }
-
 /*Index*/
 .background-index{
   background-color: rgba(204, 255, 214, 1);
@@ -265,12 +264,12 @@ footer a, footer p{
 .visit-banner{
   margin-top: 0%;
 }
-.visit-text, .visit-text p, .visit-text h1, .visit-text h2, .visit-text h3{
+.visit-text, .visit-text p, .visit-text h2, .visit-text h3{
   color: black;
 }
 .visit-text p{
-  line-height: 50px;
-  text-align: center;
+  line-height: 60px;
+  padding-bottom: 5%;
 }
 .background-visit{
   background-color: rgba(125, 185, 196, 1);
@@ -313,6 +312,36 @@ footer a, footer p{
   background-image: url(../assets/VisitTextContainerAdm.svg);
   min-height: 1027px;
   background-position: top;
+}
+.admission-heading{
+  padding-bottom: 20%;
+}
+.admission-icon, .hours-icon, .accessibility-icon, .cafe-icon, .shop-icon{
+  padding-bottom: 10%;
+  font-size: 64px;
+  margin: 0%;
+}
+.container-hours{
+  min-height: 936px;
+  margin-top: 30%;
+  background-image: url(../assets/VisitTextContainerHour.svg);
+}
+.hours-icon, .cafe-icon{
+  margin-top: 10%;
+}
+.container-accessibility{
+  margin-top: 20%;
+  background-image: url(../assets/VisitTextContainerAccess.svg);
+  min-height: 608px;
+}
+.accessibility-icon{
+  padding-bottom: 0%;
+}
+.container-cafe{
+  background-image: url(../assets/VisitTextContainerCafe&Shop.svg);
+  min-height: 1266px;
+  margin-top: 30%;
+  margin-bottom: 30%;
 }
 /*Contact*/
 
