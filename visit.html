@@ -28,7 +28,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="background-visit visit-text">
     <header>
       <a href="index.html"
         ><img
@@ -45,61 +45,74 @@
         <a href="involved.html">Get involved</a>
       </nav>
     </header>
-    <section class="background-visit">
-      <h1 class="visit-h1">Visit</h1>
-      <section class="container-location">
-        <h2 class="location-h2">Location</h2>
-        <h3 class="location-icon"></h3>
-        <p>You will find us at Science Quarter rd. 505, Nodnol, UK</p>
-        <img
-          class="visit-map-image"
-          src="./assets/images_and_icons/images/Museum-map.png"
-          alt="A map showcasing the location of the museum"
-        />
-      </section>
-      <section class="container-admission">
-        <h2 class="admission-h2">Admission</h2>
-        <h3 class="admission-h3"></h3>
-        <article>
-          <p>The entrance is free for all.</p>
-          <p>
-            There are guided tours of the museum that leave every hour. These
-            tours are 70 NOK per person and include a handy printed guide of the
-            museum.
-          </p>
-          <p>
-            If you would like to organise a guided tour for your group of 6 or
-            more people, please contact us to arrange the tour.
-          </p>
-        </article>
-      </section>
-      <section class="container-hours">
-        <h2 class="hours-h2">Hours</h2>
-        <h3 class="hours-icon"></h3>
-        <article>
-          <p>Monday: Closed</p>
-          <p>Tuesday: 10:00 &#45; 16:00</p>
-          <p>Wednesday: 10:00 &#45; 16:00p</p>
-          <p>Thursday: 10:00 &#45; 16:00</p>
-          <p>Friday: 10:00 &#45; 19:00</p>
-          <p>Saturday: 9:00 &#45; 16:00</p>
-          <p>Sunday: 9:00 &#45; 13:00</p>
-        </article>
-      </section>
-      <section class="container-accessibility">
-        <h2 class="accessibility-h2">Accessibility</h2>
-        <h3 class="accessibility-icon"></h3>
-        <article>
-          <p>The museum has wheelchair accessibility ramps.</p>
-          <p>
-            It also has audio guides and braille display signs for the visually
-            impaired.
-          </p>
-        </article>
-      </section>
-      <section class="container-cafe">
-        <h2 class="cafe-h2">Café and Shop</h2>
-        <h3 class="cafe-icon"></h3>
+    <div class="exhibitions-heading-background">
+      <img
+        src="./assets/images_and_icons/images/VisitBanner.svg"
+        alt=""
+        class="exhibitions-heading-image visit-banner"
+      />
+      <h1 class="exhibitions-heading-text">Visit</h1>
+    </div>
+
+    <section class="visit-containers container-location visit-text">
+      <h2 class="location-h2 visit-text">Location</h2>
+      <h3 class="visit-icon visit-text">
+        <i class="fa-solid fa-location-dot"></i>
+      </h3>
+      <p>You will find us at Science Quarter rd. 505, Nodnol, UK</p>
+      <img
+        class="visit-map-image"
+        src="./assets/images_and_icons/images/Museum-map.png"
+        alt="A map showcasing the location of the museum"
+      />
+    </section>
+
+    <section class="visit-containers container-admission">
+      <h2 class="visit-text">Admission</h2>
+      <h3 class="visit-icon visit-text"><i class="fa-solid fa-ticket"></i></h3>
+      <article class="visit-text font-one">
+        <p>The entrance is FREE for all.</p>
+        <p>
+          There are guided tours of the museum that leave every hour. These
+          tours are 70 NOK per person and include a handy printed guide of the
+          museum.
+        </p>
+        <p>
+          If you would like to organise a guided tour for your group of 6 or
+          more people, please contact us to arrange the tour.
+        </p>
+      </article>
+    </section>
+    <section class="visit-containers container-hours visit-text">
+      <h2 class="hours-h2">Hours</h2>
+      <h3 class="hours-icon"></h3>
+      <article class="font-one">
+        <p>Monday: Closed</p>
+        <p>Tuesday: 10:00 &#45; 16:00</p>
+        <p>Wednesday: 10:00 &#45; 16:00p</p>
+        <p>Thursday: 10:00 &#45; 16:00</p>
+        <p>Friday: 10:00 &#45; 19:00</p>
+        <p>Saturday: 9:00 &#45; 16:00</p>
+        <p>Sunday: 9:00 &#45; 13:00</p>
+      </article>
+    </section>
+
+    <section class="visit-containers container-accessibility">
+      <h2 class="accessibility-h2">Accessibility</h2>
+      <h3 class="accessibility-icon"></h3>
+      <article class="font-one">
+        <p>The museum has wheelchair accessibility ramps.</p>
+        <p>
+          It also has audio guides and braille display signs for the visually
+          impaired.
+        </p>
+      </article>
+    </section>
+
+    <section class="visit-containers container-cafe">
+      <h2 class="cafe-h2">Café and Shop</h2>
+      <h3 class="cafe-icon"></h3>
+      <article class="font-one">
         <p>
           There is a café attached to the museum where you can get light
           lunches, soft drinks, coffee, snacks and more.
@@ -110,8 +123,9 @@
           great gifts and activity packs that allow you to continue to explore
           science even after you’ve left the museum.
         </p>
-      </section>
+      </article>
     </section>
+
     <footer>
       <section class="footer-text-container">
         <div class="footer-left-text">
