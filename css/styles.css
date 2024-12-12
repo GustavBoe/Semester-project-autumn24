@@ -1,5 +1,5 @@
 /*Body elements*/
-body, .specials-button{
+body, .specials-button, .form-button{
   font-family: jockey one;
   margin: 0;
 }
@@ -42,8 +42,26 @@ header{
   padding-right: 4%;
   align-self: flex-end;
 }
+.index-hamburger{
+  color: green;
+}
+.specials-hamburger{
+  color: rgba(85, 81, 219, 1);
+}
+.exhibitions-hamburger{
+  color: rgba(0, 115, 89, 1);
+}
+.explore-hamburger{
+  color:rgba(196, 125, 125, 1);
+}
+.involved-hamburger{
+  color:rgba(125, 132, 196, 1) ;
+}
+.visit-hamburger, .contact-hamburger{
+  color:rgba(125, 185, 196, 1);
+}
 /*Text elements*/
-.font-one{
+.font-one, #email,#themes, #usermessage{
   font-family: alef;
 }
 h1{
@@ -132,9 +150,6 @@ footer a, footer p{
 .background-index{
   background-color: rgba(204, 255, 214, 1);
 }
-.index-hamburger{
-  color: green;
-}
 .index-specials-background, .index-exhibitions-background, .index-explore-background, .background-visit{
   background-position: 30% 50%;
   background-repeat: no-repeat;
@@ -209,9 +224,6 @@ footer a, footer p{
   padding-left: 10%;
 }
 /*Exhibitions*/
-.exhibitions-hamburger{
-  color: rgba(0, 115, 89, 1);
-}
 .background-exhibitions{
   background-color: rgba(125, 196, 168, 1);
 }
@@ -263,9 +275,6 @@ footer a, footer p{
 .background-involved{
   background-color: rgba(125, 132, 196, 1);
   padding-bottom: 5%;
-}
-.involved-hamburger{
-  color:rgba(125, 132, 196, 1) ;
 }
 .container-support{
   background-image: url(../assets/InvolvedTextContainerSupport.svg);
@@ -375,7 +384,37 @@ footer a, footer p{
   margin-bottom: 30%;
 }
 /*Contact*/
-
+.contact-container,.form-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.form-contact{
+  font-size: 28px;
+  color: white;
+}
+.form-button{
+  background-color: white;
+  margin-top: 15%;
+  height: fit-content;
+  width: 150px;
+  border-style: none;
+  border-radius: 10%;
+  font-size: 36px; 
+}
+#email,#themes, #usermessage{
+  margin-bottom: 5%;
+  border-style: none;
+  border-radius: 5%;
+  padding: 5%;
+}
+#email{
+  width: fit-content;
+}
+.contact-icon{
+  margin-right: 20px;
+}
 @media (min-width:600px){
   nav{
   display: block;
