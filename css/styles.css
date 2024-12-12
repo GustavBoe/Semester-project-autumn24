@@ -125,6 +125,9 @@ footer a, footer p{
   color: black;
   font-size: 24px;
 }
+.footer-involved{
+  margin-top: 0%;
+}
 /*Index*/
 .background-index{
   background-color: rgba(204, 255, 214, 1);
@@ -259,6 +262,33 @@ footer a, footer p{
 /*Involved*/
 .background-involved{
   background-color: rgba(125, 132, 196, 1);
+  padding-bottom: 5%;
+}
+.involved-hamburger{
+  color:rgba(125, 132, 196, 1) ;
+}
+.container-support{
+  background-image: url(../assets/InvolvedTextContainerSupport.svg);
+  min-height: 1325px;
+}
+.container-volunteer{
+  background-image: url(../assets/InvolvedTextContainerVolunteer.svg);
+  min-height: 1311px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+.container-internships{
+  background-image: url(../assets/InvolvedTextContainerInternships.svg);
+  min-height: 1054px;
+}
+.support-icon{
+  padding-top: 5%;
+}
+.volunteer-icon{
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 56px;
+  margin: 0%;
 }
 /*Visit*/
 .visit-banner{
@@ -286,6 +316,7 @@ footer a, footer p{
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 30%;
 }
 .container-location{
   background-image: url(../assets/VisitTextContainer.svg);
@@ -316,7 +347,7 @@ footer a, footer p{
 .admission-heading{
   padding-bottom: 20%;
 }
-.admission-icon, .hours-icon, .accessibility-icon, .cafe-icon, .shop-icon{
+.admission-icon, .hours-icon, .accessibility-icon, .cafe-icon, .shop-icon, .support-icon{
   padding-bottom: 10%;
   font-size: 64px;
   margin: 0%;
