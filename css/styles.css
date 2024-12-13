@@ -17,22 +17,25 @@ nav, #menu-checkbox{
 }
 nav{
   position: absolute;
-  background: green;
-  height: 100px;
-  top: 30%;
-  left: 50%;
+  height: fit-content;
+  width: 100%;
+  top: 100%;
+  z-index: 2;
+  background-color: rgba(63, 167, 82, 1);
 }
 nav a{
   display: block;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 20px;
+  font-size: 32px;
   text-align: center;
+  text-decoration: none;
+  border-top: solid white 1px;
 }
 header{
   display: flex;
   position: relative;
   justify-content: space-between;
-  width: 100%;
   top: 0;
   background-color: white;
 }
@@ -60,6 +63,29 @@ header{
 }
 .visit-hamburger, .contact-hamburger{
   color:rgba(125, 185, 196, 1);
+}
+/*Menus*/
+.index-menu-background:active{
+  background-color: rgba(12, 204, 133, 1);
+  color:white
+}
+.specials-menu-background:active{
+  background-color: rgba(85, 81, 219,1);
+  color: white;
+}
+.exhibition-menu-background:active{
+  background-color: rgba(0,115,89,1);
+  color: white;
+}
+.explore-menu-background:active{
+  background-color: rgba(196, 125, 124, 1);
+}
+.visit-menu-background:active{
+  background: rgba(125, 185, 196, 1);
+  z-index: 2;
+}
+.involved-menu-background:active{
+  background-color:rgba(125, 132, 196, 1);
 }
 /*Text elements*/
 .font-one, #email,#themes, #usermessage{
@@ -177,6 +203,7 @@ footer a, footer p{
   background-image: linear-gradient(rgba(85, 81, 219, 0.4), rgba(85, 81, 219, 0.4)),
   url(../assets/images_and_icons/images/andrew-ruiz-348421-min.jpg);
   height: 710px;
+  z-index: 1;
 }
 .index-exhibitions-background{
   background-image: linear-gradient(rgba(125, 196, 168, 0.4),rgba(125, 196, 168, 0.4)), url(../assets/images_and_icons/images/mavis-cw-164128-min.jpg); 
@@ -184,7 +211,7 @@ footer a, footer p{
 .index-explore-background{
   background-image: linear-gradient(rgba(196, 125, 125, 0.55),rgba(196, 125, 125, 0.55)), url(../assets/images_and_icons/images/samuel-zeller-158996-min.jpg);
 }
-.index-specials-text a, .index-exhibitions-text a, .index-explore-text a{
+.index-specials-text a, .index-exhibitions-text a, .index-explore-text a, .specials-heading{
   text-align: center;
   position: absolute;
   top: 50%;
@@ -204,9 +231,7 @@ footer a, footer p{
 }
 /*Specials*/
 .specials-heading{
-  width: 65%;
-  align-self: center;
-  margin-bottom: 40%;
+  width: 350px;
 }
 .specials-moon-image, .specials-astronaut-image, .specials-scientist-image{
   width: 290px;
@@ -276,17 +301,17 @@ footer a, footer p{
 /*Involved*/
 .container-support{
   background-image: url(../assets/InvolvedTextContainerSupport.svg);
-  min-height: 1325px;
+  min-height: 1450px;
 }
 .container-volunteer{
   background-image: url(../assets/InvolvedTextContainerVolunteer.svg);
-  min-height: 1311px;
+  min-height: 1500px;
   margin-top: 30%;
   margin-bottom: 30%;
 }
 .container-internships{
   background-image: url(../assets/InvolvedTextContainerInternships.svg);
-  min-height: 1054px;
+  height: 1200px;
 }
 .support-icon{
   padding-top: 5%;
@@ -345,11 +370,8 @@ footer a, footer p{
 }
 .container-admission{
   background-image: url(../assets/VisitTextContainerAdm.svg);
-  min-height: 1027px;
+  min-height: 1200px;
   background-position: top;
-}
-.admission-heading{
-  padding-bottom: 20%;
 }
 .admission-icon, .hours-icon, .accessibility-icon, .cafe-icon, .shop-icon, .support-icon{
   padding-bottom: 10%;
