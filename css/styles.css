@@ -292,6 +292,7 @@ footer a, footer p{
 /*Explore*/
 .explore-h1{
   align-self: center;
+  inset: 1;
 }
 .newton-image{
   width: 80%;
