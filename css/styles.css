@@ -291,7 +291,9 @@ footer a, footer p{
 }
 /*Explore*/
 .explore-h1{
- align-self: top;
+ align-self: flex-start;
+ height: fit-content;
+ margin: 0%;
 }
 .newton-image{
   width: 80%;
