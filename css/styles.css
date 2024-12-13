@@ -144,7 +144,6 @@ footer a, footer p{
   color: black;
   font-size: 24px;
 }
-
 /*Backgrounds*/
 .background-index{
   background-color: rgba(204, 255, 214, 1);
@@ -404,9 +403,6 @@ footer a, footer p{
   border-style: none;
   border-radius: 5%;
   padding: 5%;
-}
-#email{
-  width: fit-content;
 }
 .contact-icon{
   margin-right: 20px;
