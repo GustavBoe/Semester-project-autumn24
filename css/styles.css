@@ -30,7 +30,7 @@ nav a{
   font-size: 32px;
   text-align: center;
   text-decoration: none;
-  border-top: solid white 1px;
+  border-top: solid white 3px;
 }
 header{
   display: flex;
@@ -49,7 +49,7 @@ header{
 .index-hamburger{
   color: green;
 }
-.specials-hamburger{
+.specials-hamburger, .specials-button {
   color: rgba(85, 81, 219, 1);
 }
 .exhibitions-hamburger{
@@ -100,7 +100,7 @@ h2{
 p, .specials-button{
   font-size: 24px;
 }
-h1, h2, h3, p{
+h1, h2, h3, p, .specials-button{
   color: white;
 }
 h1, h2{
@@ -174,7 +174,7 @@ footer a, footer p{
 .background-index{
   background-color: rgba(204, 255, 214, 1);
 }
-.background-specials{
+.background-specials, .specials-button{
   background-color: rgba(85, 81, 219, 1);
 }
 .background-exhibitions{
@@ -226,7 +226,7 @@ footer a, footer p{
 .index-text-wrapper p{
   font-size: 20px;
 }
-.index-text-wrapper p, .index-visit-text, .index-text-wrapper h2, .index-text-wrapper h3, .specials-button a{
+.index-text-wrapper p, .index-visit-text, .index-text-wrapper h2, .index-text-wrapper h3{
   color:rgba(0, 78, 115, 1) ;
 }
 /*Specials*/
@@ -245,14 +245,16 @@ footer a, footer p{
   margin-top: 50%;
   margin-bottom: 50%;
   height: 100px;
-  width: 80%;
-  border-radius:50%;
+  width: 250px;
+  border-radius:30px;
   border-style: none;
+  border-style: solid;
+  border-color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
 }
 .specials-button a{
-  text-decoration: none;
-  text-align: left;
-  align-items: center;
   padding-right: 10%;
   padding-left: 10%;
 }
