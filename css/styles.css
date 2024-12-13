@@ -67,14 +67,16 @@ header{
 /*Menus*/
 .specials-menu-background:hover{
   background-color: rgba(85, 81, 219,1);
-  color: white;
 }
-.visit-menu-background:active{
+.visit-menu-background:hover{
   background: rgba(125, 185, 196, 1);
-  z-index: 2;
 }
-.involved-menu-background:active{
+.involved-menu-background:hover{
   background-color:rgba(125, 132, 196, 1);
+}
+.specials-menu-background:hover, .visit-menu-background:hover, .involved-menu-background:hover{
+  border-radius: 5px;
+  text-decoration: underline;
 }
 /*Text elements*/
 .font-one, #email,#themes, #usermessage{
@@ -89,7 +91,7 @@ h2{
 p, .specials-button{
   font-size: 24px;
 }
-h1, h2, h3, p, .specials-button{
+h1, h2, h3, p, .specials-button, .specials-menu-background:hover, .visit-menu-background:hover, .involved-menu-background:hover{
   color: white;
 }
 h1, h2{
@@ -438,18 +440,16 @@ footer a, footer p{
   nav{
     display: flex;
     justify-content: space-evenly;
-    
-      position: relative;
-      height: fit-content;
-      width: 100%;
-      top: 100%;
-      background-color:white;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    top: 100%;
+    background-color:white;
   }
   nav a{
     font-size: 20px;
     border: none;
     color:rgba(46, 108, 57, 1);
-    padding: 0%;
   }
   
 .hamburger-icon{
