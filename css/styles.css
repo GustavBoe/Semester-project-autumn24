@@ -290,6 +290,9 @@ footer a, footer p{
   margin-bottom: 20%;
 }
 /*Explore*/
+.explore-h1{
+  align-self: center;
+}
 .newton-image{
   width: 80%;
   height: auto;
