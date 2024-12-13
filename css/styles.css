@@ -480,5 +480,8 @@ footer a, footer p{
     min-width: 170px;
     text-align: center;
   }
-
+.specials-container{
+  width:60%;
+  justify-self: center;
+}
 }
