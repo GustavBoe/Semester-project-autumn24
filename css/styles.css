@@ -42,7 +42,7 @@ header{
 .hamburger-icon{
   font-size: 56px;
   position: relative;
-  padding-right: 4%;
+  padding-right: 5%;
   align-self: flex-end;
 }
 /*Hamburgers*/
@@ -65,20 +65,9 @@ header{
   color:rgba(125, 185, 196, 1);
 }
 /*Menus*/
-.index-menu-background:active{
-  background-color: rgba(12, 204, 133, 1);
-  color:white
-}
-.specials-menu-background:active{
+.specials-menu-background:hover{
   background-color: rgba(85, 81, 219,1);
   color: white;
-}
-.exhibition-menu-background:active{
-  background-color: rgba(0,115,89,1);
-  color: white;
-}
-.explore-menu-background:active{
-  background-color: rgba(196, 125, 124, 1);
 }
 .visit-menu-background:active{
   background: rgba(125, 185, 196, 1);
@@ -166,7 +155,7 @@ footer{
 .footer-logo{
   height: 150px;
   width: auto;
-  margin-top: 15%;
+  margin-top: 40px;
   align-self: center;
 }
 footer p{
@@ -440,15 +429,56 @@ footer a, footer p{
 .contact-icon{
   margin-right: 20px;
 }
-@media (min-width:600px){
+@media (min-width:680px){
+  header{
+    display: flex;
+    position:relative;
+    align-items: center;
+  }
   nav{
-  display: block;
-  position: static;
-}
-  .hamburger-icon{
+    display: flex;
+    justify-content: space-evenly;
+    
+      position: relative;
+      height: fit-content;
+      width: 100%;
+      top: 100%;
+      background-color:white;
+  }
+  nav a{
+    font-size: 20px;
+    border: none;
+    color:rgba(46, 108, 57, 1);
+    padding: 0%;
+  }
+  
+.hamburger-icon{
   display: none;
 }
-nav a{
-  display: inline-block;
-}
+  .footer-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer-text-container p, .footer-text-container a{
+    padding: 5%;
+  }
+  .footer-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    text-align: left;
+    width: fit-content;
+    margin-right: 10%;
+  }
+  .footer-right-text{
+    text-align: right;
+    width: 190px;
+    margin-left: 10%;
+  }
+  .museum-adress{
+    min-width: 170px;
+    text-align: center;
+  }
+
 }
