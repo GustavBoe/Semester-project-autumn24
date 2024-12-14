@@ -258,13 +258,13 @@ footer a, footer p{
   padding-left: 10%;
 }
 /*Exhibitions*/
-.exhibitions-heading-background{
+.exhibitions-heading-background,.involved-background-mobile{
   width: 100%;
   display: flex;
   height:auto;
   position: relative;
 }
-.exhibitions-heading-image{
+.exhibitions-heading-image, .visit-banner{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -272,7 +272,7 @@ footer a, footer p{
   margin-bottom: 30%;
   margin-top: 50%;
 }
-.exhibitions-heading-text{
+.exhibitions-heading-text,.involved-desk, .involved-mobile{
   position:absolute;
   inset: 0;
   display: flex;
@@ -453,7 +453,7 @@ footer a, footer p{
     color:rgba(46, 108, 57, 1);
   }
   
-.hamburger-icon{
+.hamburger-icon, .involved-background-mobile, .visit-background-mobile{
   display: none;
 }
 h2{
@@ -499,7 +499,7 @@ p{
   width: 680px;
   justify-self:center;
 }
-.exhibitions-heading-text{
+.exhibitions-heading-text,.involved-mobile{
   text-shadow:(1px, 1px, 2px, black);
 }
 .index-specials a, .specials-container h1{
@@ -537,9 +537,6 @@ p{
 }
 .container-accessibility p{
   font-size: 36px;
-}
-.involved-background-mobile, .visit-background-mobile{
-  display: none;
 }
 .involved-background,.visit-background{
   display:block;
