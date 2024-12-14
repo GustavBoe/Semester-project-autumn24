@@ -169,7 +169,6 @@ footer a, footer p{
   color: black;
   font-size: 24px;
 }
-/*Backgrounds*/
 .background-index{
   background-color: rgba(204, 255, 214, 1);
 }
@@ -177,7 +176,7 @@ footer a, footer p{
   background-color: rgba(85, 81, 219, 1);
 }
 .background-exhibitions{
-  background-color: rgba(125, 196, 168, 1);
+  background-color: rgb(77, 132, 110);
 }
 .background-explore{
   background-color: rgba(196, 125, 125, 1);
