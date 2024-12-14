@@ -209,7 +209,7 @@ footer a, footer p{
 .index-explore-background{
   background-image: linear-gradient(rgba(196, 125, 125, 0.55),rgba(196, 125, 125, 0.55)), url(../assets/images_and_icons/images/samuel-zeller-158996-min.jpg);
 }
-.index-specials-text a, .index-exhibitions-text a, .index-explore-text a, .specials-heading, .involved, .visit{
+.index-specials-text a, .index-exhibitions-text a, .index-explore-text a, .specials-heading, .involved{
   text-align: center;
   position: absolute;
   top: 50%;
@@ -271,7 +271,7 @@ footer a, footer p{
   margin-bottom: 30%;
   margin-top: 50%;
 }
-.exhibitions-heading-text,.involved-desk, .involved-mobile{
+.exhibitions-heading-text,.involved-desk, .involved-mobile,.visit{
   position:absolute;
   inset: 0;
   display: flex;
@@ -497,9 +497,6 @@ p{
 .exhibitions-heading-background-desktop, .article-text{
   width: 680px;
   justify-self:center;
-}
-.exhibitions-heading-text,.involved-mobile{
-  text-shadow:(1px, 1px, 2px, black);
 }
 .index-specials a, .specials-container h1{
   width:470px;
