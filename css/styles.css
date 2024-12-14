@@ -69,7 +69,7 @@ header{
   background-color: rgba(85, 81, 219,1);
 }
 .visit-menu-background:hover{
-  background: rgba(125, 185, 196, 1);
+  background: rgb(37, 102, 113);
 }
 .involved-menu-background:hover{
   background-color:rgba(125, 132, 196, 1);
@@ -182,7 +182,7 @@ footer a, footer p{
   background-color: rgba(196, 125, 125, 1);
 }
 .background-visit{
-  background-color: rgba(125, 185, 196, 1);
+  background-color: rgb(37, 102, 113);
 }
 .background-involved{
   background-color: rgba(125, 132, 196, 1);
