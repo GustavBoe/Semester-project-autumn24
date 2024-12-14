@@ -189,7 +189,7 @@ footer a, footer p{
   background-color: rgba(125, 132, 196, 1);
 }
 /*Index*/
-.index-specials-background, .index-exhibitions-background, .index-explore-background, .background-visit{
+.index-specials-background, .index-exhibitions-background, .index-explore-background, .background-visit, .involved-background,.visit-background{
   background-position: 30% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,7 +210,7 @@ footer a, footer p{
 .index-explore-background{
   background-image: linear-gradient(rgba(196, 125, 125, 0.55),rgba(196, 125, 125, 0.55)), url(../assets/images_and_icons/images/samuel-zeller-158996-min.jpg);
 }
-.index-specials-text a, .index-exhibitions-text a, .index-explore-text a, .specials-heading{
+.index-specials-text a, .index-exhibitions-text a, .index-explore-text a, .specials-heading, .involved, .visit{
   text-align: center;
   position: absolute;
   top: 50%;
@@ -295,6 +295,9 @@ footer a, footer p{
   height: auto;
 }
 /*Involved*/
+.involved-background{
+  display: none;
+}
 .container-support{
   background-image: url(../assets/InvolvedTextContainerSupport.svg);
   min-height: 1450px;
@@ -319,6 +322,9 @@ footer a, footer p{
   margin: 0%;
 }
 /*Visit*/
+.visit-background{
+  display: none;
+}
 .visit-banner{
   margin-top: 0%;
 }
@@ -531,6 +537,35 @@ p{
 }
 .container-accessibility p{
   font-size: 36px;
+}
+.involved-background-mobile, .visit-background-mobile{
+  display: none;
+}
+.involved-background,.visit-background{
+  display:block;
+  margin-bottom: 200px;
+  height: 755px;
+}
+.involved-background{
+  background-image: url(../assets/images_and_icons/images/GetInvolvedBanner.jpg);
+}
+.container-support{
+  background-image: url(../assets/images_and_icons/images/VisitTextContainerAdmDesk.svg);
+  min-height: 1400px;
+}
+.support-icon{
+  padding: 0%;
+}
+.support-text p {
+  width: 70%;
+  font-size: 24px;
+}
+.container-volunteer{
+  background-image: url(../assets/images_and_icons/images/InvolvedTextContainerVolunteerDesk.svg);
+  min-height: 1680px;
+}
+.visit-background{
+  background-image: url(../assets/images_and_icons/images/VisitBannerDesk.jpg);
 }
 #usermessage{
   width: 400px;
