@@ -258,12 +258,6 @@ footer a, footer p{
   padding-left: 10%;
 }
 /*Exhibitions*/
-.exhibitions-h1{
-  margin-top: 40%;
-  margin-bottom: 50%;
-  background-image: url(../assets/images_and_icons/images/ExhibitionsIcons.svg);
-  background-size:contain ;
-}
 .exhibitions-heading-background{
   width: 100%;
   display: flex;
@@ -285,6 +279,7 @@ footer a, footer p{
   align-items: center;
   justify-content: center;
   text-align: center;
+  text-shadow: 1px 1px 2px black;
 }
 .exhibitions-article, .exhibitions-heading-image{
   margin-top: 20%;
@@ -455,6 +450,12 @@ footer a, footer p{
 .hamburger-icon{
   display: none;
 }
+h2{
+  font-size: 64px;
+}
+p{
+  font-size: 40px;
+}
   .footer-text-container{
     display: flex;
     flex-direction: row;
@@ -483,5 +484,55 @@ footer a, footer p{
 .specials-container{
   width:60%;
   justify-self: center;
+}
+/*.exhibitions-heading-image{
+  margin-top: 0%;
+  width: 600px;
+}*/
+.exhibitions-heading-background-desktop, .article-text{
+  width: 680px;
+  justify-self:center;
+}
+.exhibitions-heading-text{
+  text-shadow:(1px, 1px, 2px, black);
+}
+.index-specials a, .specials-container h1{
+  width:470px;
+}
+.index-specials a, h1{
+  font-size: 86px;
+}
+.index-exhibitions a, .index-explore a{
+  font-size: 74px;
+}
+.specials-container h1{
+  margin-top: 0%;
+  padding-bottom: 30%;
+}
+.specials-container p, .specials-moon-image, .specials-astronaut-image, .specials-scientist-imag, .newton-image,.vr-painting,.explore-chemist{
+  width: 500px;
+}
+.specials-date{
+  margin-top: 5%;
+}
+.specials-button:hover{
+  background-color: rgba(125, 196, 168, 0.7);
+}
+.explore-heading-image, .container-accessibility{
+  object-fit: cover;
+}
+.visit-text p{
+  padding-bottom: 0%;
+  line-height: 80px;
+}
+.visit-map-image, .admission-icon, .container-cafe p{
+  margin-top: 0%;
+  padding-bottom: 40px;
+}
+.container-accessibility p{
+  font-size: 36px;
+}
+#usermessage{
+  width: 400px;
 }
 }
