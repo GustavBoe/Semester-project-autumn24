@@ -1,0 +1,9 @@
+:root {
+  --index-color: rgba(204, 255, 214, 1);
+  --index-text: rgba(0, 78, 115, 1);
+  --specials-color: rgba(85, 81, 219, 1);
+  --exhibitions-color: rgba(77, 132, 110, 1);
+  --explore-color: rgba(196, 125, 125, 1);
+  --visit-color: rgba(37, 102, 113, 1);
+  --involved-color: rgba(125, 132, 196, 1);
+}
