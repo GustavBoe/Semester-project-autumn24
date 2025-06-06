@@ -24,7 +24,7 @@ nav {
   width: 100%;
   top: 100%;
   z-index: 2;
-  background-color: rgba(63, 167, 82, 1);
+  background-color: var(--logo-color);
 }
 nav a {
   display: block;
@@ -50,34 +50,34 @@ header {
 }
 /*Hamburgers*/
 .index-hamburger {
-  color: green;
+  color: var(--logo-color);
 }
 .specials-hamburger,
 .specials-button {
-  color: rgba(85, 81, 219, 1);
+  color: var(--specials-color);
 }
 .exhibitions-hamburger {
-  color: rgba(0, 115, 89, 1);
+  color: var(--exhibitions-color);
 }
 .explore-hamburger {
-  color: rgba(196, 125, 125, 1);
+  color: var(--explore-color);
 }
 .involved-hamburger {
-  color: rgba(125, 132, 196, 1);
+  color: var(--involved-color);
 }
 .visit-hamburger,
 .contact-hamburger {
-  color: rgb(37, 102, 113);
+  color: var(--visit-color);
 }
 /*Menus*/
 .specials-menu-background:hover {
-  background-color: rgba(85, 81, 219, 1);
+  background-color: var(--specials-color);
 }
 .visit-menu-background:hover {
-  background: rgb(37, 102, 113);
+  background: var(--visit-color);
 }
 .involved-menu-background:hover {
-  background-color: rgba(125, 132, 196, 1);
+  background-color: var(--involved-color);
 }
 .specials-menu-background:hover,
 .visit-menu-background:hover,
@@ -98,7 +98,9 @@ h1 {
 h2 {
   font-size: 40px;
 }
-p,
+
+footer a,
+footer p,
 .specials-button {
   font-size: 24px;
 }
@@ -143,15 +145,16 @@ h2 a,
 }
 /*Footer elements*/
 footer {
-  height: 470px;
+  height: 18rem;
   width: 100%;
   background-color: white;
-  margin: 20% 0% 0% 0%;
-  padding-top: 10%;
+  margin-top: 5rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  justify-content: space-around;
 }
 .footer-text-container {
   display: flex;
@@ -176,13 +179,12 @@ footer {
   margin-left: 10%;
 }
 .museum-address {
-  min-width: 170px;
+  min-width: 1rem;
   text-align: center;
 }
 .footer-logo {
-  height: 150px;
+  height: 5rem;
   width: auto;
-  margin-top: 40px;
   align-self: center;
 }
 footer p {
@@ -193,26 +195,25 @@ footer a,
 footer p {
   text-decoration: none;
   color: black;
-  font-size: 24px;
 }
 .background-index {
-  background-color: rgba(204, 255, 214, 1);
+  background-color: var(--index-color);
 }
 .background-specials,
 .specials-button {
-  background-color: rgba(85, 81, 219, 1);
+  background-color: var(--specials-color);
 }
 .background-exhibitions {
-  background-color: rgb(77, 132, 110);
+  background-color: var(--exhibitions-color);
 }
 .background-explore {
-  background-color: rgba(196, 125, 125, 1);
+  background-color: var(--explore-color);
 }
 .background-visit {
-  background-color: rgb(37, 102, 113);
+  background-color: var(--visit-color);
 }
 .background-involved {
-  background-color: rgba(125, 132, 196, 1);
+  background-color: var(--involved-color);
 }
 /*Index*/
 .index-specials-background,
@@ -228,7 +229,7 @@ footer p {
 }
 .index-exhibitions-background,
 .index-explore-background {
-  height: 355px;
+  height: 25rem;
 }
 .index-specials-background {
   /*Borrowed code from W3-schools at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image*/
@@ -237,7 +238,7 @@ footer p {
       rgba(85, 81, 219, 0.4)
     ),
     url(../assets/images_and_icons/images/andrew-ruiz-348421-min.jpg);
-  height: 710px;
+  height: 40rem;
   z-index: 1;
 }
 .index-exhibitions-background {
@@ -287,14 +288,15 @@ footer p {
 .specials-moon-image,
 .specials-astronaut-image,
 .specials-scientist-image {
-  width: 290px;
-  height: auto;
+  width: 20rem;
+  max-height: 20rem;
 }
 .specials-date {
-  margin-top: 50%;
+  margin-top: 5rem;
   margin-bottom: 0%;
 }
 .specials-button {
+  font-size: 2em;
   margin-top: 50%;
   margin-bottom: 50%;
   height: 100px;
@@ -395,7 +397,6 @@ footer p {
   color: black;
 }
 .visit-text p {
-  line-height: 60px;
   padding-bottom: 5%;
 }
 .visit-h1-background {
@@ -409,12 +410,14 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   margin-bottom: 30%;
 }
+.container-location,
+.container-cafe {
+  text-align: center;
+}
 .container-location {
-  background-image: url(../assets/VisitTextContainer.svg);
-  min-height: 673px;
   margin-bottom: 30%;
 }
 .visit-text p,
@@ -435,9 +438,24 @@ footer p {
   border-radius: 5%;
   margin-top: 5%;
 }
+.container-admission,
+.container-accessibility,
+.container-location,
+.container-cafe,
+.container-hours,
+.form-button {
+  background-color: white;
+}
+.container-admission,
+.container-cafe {
+  min-height: 30rem;
+}
+.container-location,
+.container-accessibility,
+.container-cafe {
+  min-height: 40rem;
+}
 .container-admission {
-  background-image: url(../assets/VisitTextContainerAdm.svg);
-  min-height: 1200px;
   background-position: top;
 }
 .admission-icon,
@@ -451,9 +469,7 @@ footer p {
   margin: 0%;
 }
 .container-hours {
-  min-height: 936px;
   margin-top: 30%;
-  background-image: url(../assets/VisitTextContainerHour.svg);
 }
 .hours-icon,
 .cafe-icon {
@@ -461,15 +477,12 @@ footer p {
 }
 .container-accessibility {
   margin-top: 20%;
-  background-image: url(../assets/VisitTextContainerAccess.svg);
-  min-height: 608px;
+  min-height: 20rem;
 }
 .accessibility-icon {
   padding-bottom: 0%;
 }
 .container-cafe {
-  background-image: url(../assets/VisitTextContainerCafe&Shop.svg);
-  min-height: 1266px;
   margin-top: 30%;
   margin-bottom: 30%;
 }
@@ -486,7 +499,6 @@ footer p {
   color: white;
 }
 .form-button {
-  background-color: white;
   margin-top: 15%;
   height: fit-content;
   width: 150px;
@@ -535,9 +547,7 @@ footer p {
   h2 {
     font-size: 64px;
   }
-  p {
-    font-size: 40px;
-  }
+
   .footer-text-container {
     display: flex;
     flex-direction: row;
@@ -572,8 +582,7 @@ footer p {
   margin-top: 0%;
   width: 600px;
 }*/
-  .exhibitions-heading-background-desktop,
-  .article-text {
+  .exhibitions-heading-background-desktop {
     width: 680px;
     justify-self: center;
   }
@@ -599,7 +608,9 @@ footer p {
   .specials-scientist-imag,
   .newton-image,
   .vr-painting,
-  .explore-chemist {
+  .explore-chemist,
+  .article-text,
+  .container-cafe p {
     width: 500px;
   }
   .specials-date {
@@ -613,8 +624,7 @@ footer p {
     object-fit: cover;
   }
   .visit-text p {
-    padding-bottom: 0%;
-    line-height: 80px;
+    padding-bottom: 0.5em;
   }
   .visit-map-image,
   .admission-icon,
@@ -622,9 +632,7 @@ footer p {
     margin-top: 0%;
     padding-bottom: 40px;
   }
-  .container-accessibility p {
-    font-size: 36px;
-  }
+
   .involved-background,
   .visit-background {
     display: block;
