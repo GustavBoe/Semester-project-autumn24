@@ -635,7 +635,7 @@ footer p {
     height: 755px;
   }
   .involved-background {
-    background-image: url(/assets/images_and_icons/images/GetInvolvedBanner.jpg);
+    background-image: url(../assets/images_and_icons/images/GetInvolvedBanner.jpg);
     min-height: 20rem;
   }
 
