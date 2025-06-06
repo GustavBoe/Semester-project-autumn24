@@ -361,18 +361,14 @@ footer p {
   display: none;
 }
 .container-support {
-  background-image: url(../assets/InvolvedTextContainerSupport.svg);
-  min-height: 1450px;
+  min-height: 30rem;
+  color: white;
 }
 .container-volunteer {
-  background-image: url(../assets/InvolvedTextContainerVolunteer.svg);
-  min-height: 1500px;
-  margin-top: 30%;
-  margin-bottom: 30%;
+  margin-bottom: 2rem;
 }
 .container-internships {
-  background-image: url(../assets/InvolvedTextContainerInternships.svg);
-  height: 1200px;
+  height: 25rem;
 }
 .support-icon {
   padding-top: 5%;
@@ -410,8 +406,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: left;
-  margin-bottom: 30%;
+  text-align: center;
 }
 .container-location,
 .container-cafe {
@@ -447,7 +442,8 @@ footer p {
   background-color: white;
 }
 .container-admission,
-.container-cafe {
+.container-cafe,
+.container-volunteer {
   min-height: 30rem;
 }
 .container-location,
@@ -609,7 +605,6 @@ footer p {
   .newton-image,
   .vr-painting,
   .explore-chemist,
-  .article-text,
   .container-cafe p {
     width: 500px;
   }
@@ -640,11 +635,12 @@ footer p {
     height: 755px;
   }
   .involved-background {
-    background-image: url(../assets/images_and_icons/images/GetInvolvedBanner.jpg);
+    background-image: url(/assets/images_and_icons/images/GetInvolvedBanner.jpg);
+    min-height: 20rem;
   }
+
   .container-support {
-    background-image: url(../assets/images_and_icons/images/VisitTextContainerAdmDesk.svg);
-    min-height: 1400px;
+    min-height: 50rem;
   }
   .support-icon {
     padding: 0%;
@@ -653,9 +649,13 @@ footer p {
     width: 70%;
     font-size: 24px;
   }
+
   .container-volunteer {
-    background-image: url(../assets/images_and_icons/images/InvolvedTextContainerVolunteerDesk.svg);
-    min-height: 1680px;
+    min-height: 20rem;
+    margin-bottom: 9rem;
+  }
+  .container-internships {
+    margin-bottom: 15rem;
   }
   .visit-background {
     background-image: url(../assets/images_and_icons/images/VisitBannerDesk.jpg);
