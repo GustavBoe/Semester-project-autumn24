@@ -314,6 +314,11 @@ footer p {
   padding-left: 10%;
 }
 /*Exhibitions*/
+.exhibition-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .exhibitions-heading-background,
 .involved-background-mobile {
   width: 100%;
@@ -330,6 +335,7 @@ footer p {
   margin-bottom: 30%;
   margin-top: 50%;
 }
+
 .exhibitions-heading-text,
 .involved-desk,
 .involved-mobile,
@@ -488,7 +494,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30%;
+  margin-bottom: 5rem;
 }
 .form-contact {
   font-size: 28px;
@@ -515,6 +521,9 @@ footer p {
   margin-right: 20px;
 }
 @media (min-width: 680px) {
+  h2 {
+    margin: 0%;
+  }
   header {
     display: flex;
     position: relative;
@@ -613,6 +622,12 @@ footer p {
   }
   .specials-button:hover {
     background-color: rgba(125, 196, 168, 0.7);
+  }
+  .exhibition-text {
+    position: relative;
+    max-width: 60rem;
+    align-self: center;
+    font-size: 2em;
   }
   .explore-heading-image,
   .container-accessibility {
